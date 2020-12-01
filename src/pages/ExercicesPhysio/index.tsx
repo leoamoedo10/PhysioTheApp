@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, View } from 'react-native';
+import { Image, View, Text } from 'react-native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
@@ -24,6 +24,9 @@ function ExercicesPhysio() {
       <View style={styles.image}>
         <Image source={exerciceImg} />
       </View>
+      <Text style={styles.title}>
+        Feche a abra as mãos
+      </Text>
     </View>
   );
 }

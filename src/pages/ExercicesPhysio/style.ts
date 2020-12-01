@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#8257E5',
+    justifyContent: 'center',
     padding: 20
   },
 
@@ -11,7 +12,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-  }
+  },
+
+  title: {
+    fontFamily: 'Poppins_400Regular',
+    color: '#fff',
+    fontSize: 20,
+    lineHeight: 30,
+  },
 
 });
 
