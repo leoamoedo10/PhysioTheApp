@@ -25,7 +25,7 @@ function ExercicesPhysio() {
         <Image source={exerciceImg} />
       </View>
       <Text style={styles.title}>
-        Feche a abra as mãos
+        Feche a abra as mãos.
       </Text>
     </View>
   );
